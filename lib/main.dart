@@ -6,13 +6,12 @@ void main() {
       home: Scaffold(
         backgroundColor: Colors.blueGrey,
         appBar: AppBar(
-          title: Text("I Am Rich"),
+          title: Text("I Am Ric"),
           backgroundColor: Colors.blueGrey.shade900,
         ),
         body: Center(
           child: Image(
-            image:
-                NetworkImage('https://www.w3schools.com/w3css/img_lights.jpg'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
